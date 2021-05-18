@@ -155,4 +155,4 @@ class Form extends Component {
         </div>
     </Fragment>
         )}}
-        export default  For
+        export default  Form;
