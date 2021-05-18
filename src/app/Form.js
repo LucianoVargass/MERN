@@ -57,7 +57,7 @@ class Form extends Component {
             this.setState({task: data})
             this.state.task
         })
-        .catch(err => cosole.log(err))
+        .catch(err => console.log(err))
     }
     deleteTarea(id){
        if(confirm('Seguro que quieres eliminar esta tarea?')){
